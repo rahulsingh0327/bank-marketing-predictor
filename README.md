@@ -1,23 +1,28 @@
-📊 Dataset Description
+## 📊 **Dataset Description**
 
-This project uses the Bank Marketing Dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing). The dataset contains information collected from direct marketing campaigns (mainly phone calls) conducted by a Portuguese banking institution. The goal is to predict whether a client will subscribe to a term deposit (variable y).
+This project uses the **Bank Marketing Dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing).
 
+> 📞 **Context:**  
+The dataset contains data from **direct marketing campaigns** (mainly phone calls) conducted by a **Portuguese banking institution**. The primary goal is to **predict** whether a client will subscribe to a **term deposit**.
 
-The dataset includes 41,188 records and 20 input features, including: 
+### 🧾 **Dataset Summary**
+- **Records:** `41,188`
+- **Features:** `20` input variables + `1` target variable
+- **Target Variable:** `y` → *Binary classification*
+  - `yes`: client subscribed to a term deposit  
+  - `no`: client did not subscribe
 
-Client-related attributes: age, job, marital, education, default, housing, loan
+### 📁 **Feature Categories**
+- **Client Attributes:**  
+  `age`, `job`, `marital`, `education`, `default`, `housing`, `loan`
 
-Contact attributes: contact, month, day_of_week, duration
+- **Contact Information:**  
+  `contact`, `month`, `day_of_week`, `duration`
 
-Campaign-related attributes: campaign, pdays, previous, poutcome
+- **Campaign Performance:**  
+  `campaign`, `pdays`, `previous`, `poutcome`
 
-Socioeconomic context attributes: emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed
-
-
-The target variable (y) is binary:
-
-yes: the client subscribed to a term deposit
-
-no: the client did not subscribe
+- **Economic Indicators:**  
+  `emp.var.rate`, `cons.price.idx`, `cons.conf.idx`, `euribor3m`, `nr.employed`
 
 
